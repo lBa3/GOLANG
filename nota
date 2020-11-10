@@ -1,0 +1,53 @@
+instaladores
+
+https://golang.org/dl/
+
+documentacion
+https://golang.org/doc/
+
+
+comprobar version instalada
+ CMD -> go version
+
+/Volumes/Macintosh HD/ CursoGo
+
+para ejecucion es
+- desde CMD
+- ruta del archivo Go
+go run holamundo.go
+
+comandos interesantes
+-comando para dar formato a tu codigo (coloca espacios y identacion al codigo)
+go fmt holamundo.go
+-crear un exe del archivo
+go build holamundo.go
+** en caso de windows para ejecutar es desde CMD ./holamundo.exe
+
+Crear servidor GO
+-- revisar puertos disponibles de ejecucion
+-- para la ejeccion con ctrl+c
+
+libreria route para Go
+--gorilla mux
+
+instalacion de paquetes en Go (nombre del paque o url del paquete)
+-- desde CMD -> go get -u github.com/gorilla/mux
+
+
+--Para probar la API se requiere postman y enviar el json 
+ejecutar en la carpeta API: cmd -> go run *.go
+Tipo POST
+route: /pelicula-add
+headers del postman: Content-Type application/json
+{"Name": "viajando al futuro2", "anio": 1989, "director":"Cameron Scott"}
+
+
+**ver curso MongoDB
+para iniciar servicio y etc.
+
+** conector de mongoDB con Go
+libreria-> instalar desde CMD -  go get gopkg.in/mgo.v2
+libreria->                    -  go get gopkg.in/mgo.v2/bson 
+
+
+
